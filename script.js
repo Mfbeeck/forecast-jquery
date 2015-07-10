@@ -1,4 +1,11 @@
 var main = function() {
+	$('.day').on('click',function(){
+		$(this).next().toggle();
+
+		$(this).find('span').toggleClass('glyphicon-minus');
+
+
+	});
   
 };
 
